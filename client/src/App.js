@@ -1,13 +1,10 @@
-import './App.css';
+import Header from './Components/Header/Header';
+import styles from './app.module.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <input placeholder="Строка Поиска Обьектов" />
-        <p>3142701 Отходы бетона</p>
-        <p>Местоположение обьекта</p>
-      </header>
+    <div className={styles.app}>
+        <Header />
     </div>
   );
 }
