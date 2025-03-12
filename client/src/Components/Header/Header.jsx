@@ -1,5 +1,6 @@
 import React from 'react';
 import MyInput from '../Input_Search/MyInput';
+import Button from 'react-bootstrap/Button';
 import styles from './header.module.css'
 
 const Header = () => {
@@ -15,8 +16,8 @@ const Header = () => {
                 <br/>
                 <span>Берсона 3</span>
             </div>
-            <div className={styles.wrap2}>
-                <button className={styles.button}>Выбрать Местоположение</button>
+            <div className={styles.wrap3}>
+                <Button variant="dark" className={styles.button}>Выбрать Местоположение</Button>
             </div>
         </div>
     );
