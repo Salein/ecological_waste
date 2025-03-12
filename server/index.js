@@ -7,6 +7,8 @@ const PORT = process.env.PORT || 8000
 
 const app = express()
 app.use(cors())
+app.use(express.json())
+app.use(express.static(path.resolve(__dirname, 'static')))
 
 const start = async () => {
     try {
