@@ -12,7 +12,7 @@ const Header = () => {
                 <span className={styles.code}>3142701 Отходы бетона</span>
             </div>
             <div className={styles.wrap2}>
-                <span>Местоположение обьекта:</span>
+                <span>Место образования отходов:</span>
                 <br/>
                 <span>Берсона 3</span>
             </div>
