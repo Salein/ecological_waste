@@ -2,10 +2,11 @@
     margin-top: 70px;
     margin-left: 20px;
     list-style: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 li {
     margin-top: 20px;
     padding-top: 50px;
+    height: 250px;
 }

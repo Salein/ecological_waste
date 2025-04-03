@@ -12,7 +12,6 @@ const Distance = () => {
                 <li>70км</li>
                 <li>90км</li>
                 <li>140км</li>
-                <li>200км</li>
             </ul>
         </div>
     );
